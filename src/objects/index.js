@@ -10,9 +10,7 @@ For example, if the input string is "Hello World," the function should return th
 //     o: 2,
 //     u: 0
 //   }
-
 let text = 'Hello world,';
-
 function countVowels(text) {
   let lowerCaseText = text.toLowerCase();
   let counter = {
@@ -28,5 +26,4 @@ function countVowels(text) {
   }
   console.log(counter);
 }
-
 countVowels(text);
